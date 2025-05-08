@@ -6,7 +6,7 @@ This project demonstrates a secure and privacy-preserving approach to predicting
 
 ## 📌 Project Task
 
-This project trains a regression model in plaintext using TensorFlow and integrates it with OpenFHE (or TenSEAL in implementation) for encrypted inference using the CKKS scheme. Model weights remain plaintext, while inputs and outputs remain encrypted to ensure user privacy.  
+This project trains a regression model in plaintext using TensorFlow and integrates it with OpenFHE library for encrypted inference using the CKKS scheme. Model weights remain plaintext, while inputs and outputs are encrypted to ensure user privacy.  
 **Dataset:** Housing price data from the FHERMA Challenge, with 13 numerical features (e.g., rooms, income, population) and target prices.
 
 ---
@@ -28,8 +28,7 @@ fhe-regression/
 ├── data/       # Input datasets (X_train.csv, y_train.csv)
 ├── models/     # Trained model file (best_dnn_model.keras)
 ├── notebooks/  # Jupyter notebook (FHE_Regression_Model.ipynb)
-├── reports/    # Report PDF and assignment brief
-├── src/        # (Optional) reusable Python scripts
+├── reports/    # Report PDF 
 ```
 
 ---
